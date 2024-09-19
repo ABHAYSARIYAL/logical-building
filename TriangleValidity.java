@@ -14,7 +14,6 @@ public class TriangleValidity {
         System.out.print("Enter the third angle: ");
         int angle3 = scanner.nextInt();
 
-        // Check if the sum of the angles is 180 degrees
         if (angle1 + angle2 + angle3 == 180) {
             System.out.println("The triangle is valid.");
         } else {
